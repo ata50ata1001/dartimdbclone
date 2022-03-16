@@ -92,9 +92,16 @@ int sayac=1;
    while (sayac<=5);
    
 
+print("Birinci öğrencinin notunu giriniz:");
+var isim =  int.parse(stdin.readLineSync()!);
+print("İkinci öğrencinin notunu giriniz: ");
+var isim2 = int.parse(stdin.readLineSync()!);
 
+print((isim+isim2)/2);
 
-print("adınıı giriniz");
-var isim =   stdin.readLineSync();
-print (isim);
+print("Ürünün fiyatını giriniz:");
+var urun1 = double.parse(stdin.readLineSync()!);
+double urun2 = ((urun1/100)*18+urun1);
+print("Ürünün kdvli fiyatı:$urun2");
+  
 }
