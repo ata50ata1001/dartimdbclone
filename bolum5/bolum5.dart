@@ -38,6 +38,7 @@ return i ;
   
 }
 */
+*/
 
 
 
@@ -69,5 +70,4 @@ print("Önce alanı bulmak için iki değer girmelisini:");
 print("Nesnenin alanı: ${en*uzunluk} ");
 
 return en*uzunluk;
-*/
 */

@@ -109,8 +109,11 @@ void main(List<String> args) {
       print("Bu bir ikizkenar üçgen");
     };
 //SORU3 vize ve final notunu alıp dersi geçip geçmediğini yazan programı yazınız vize yüzde 30 final yüzde 70
+
 //SORU5 1 den 100 e kadar olan ve 15 ile tam bölünen sayıların karelerini ekrana yazdırın
+
 //SORU6 girilen int bir sayının faktöriyelini hesplayan uygulamayı yazınız
+
   
 
 
