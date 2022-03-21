@@ -52,17 +52,26 @@ void main(List<String> args) {
   // }
   // print(listem);
 
-
-
 //SORU2
 
-var listem2 =<String,dynamic>{"ram miktari" : 8 , "çekirdek sayısı": 4 , "ssd durumu ": false };
+  var listem2 = <String, dynamic>{
+    "ram miktari": 8,
+    "çekirdek sayısı": 4,
+    "ssd durumu ": false
+  };
 
- 
-if (listem2.containsValue(false ) ) {
-  listem2.update("ssd durumu ", (value) => "fakir piç");
-  
-}
-print(listem2);
+  if (listem2.containsValue(false)) {
+    listem2.update("ssd durumu ", (value) => "fakir piç");
+  }
+  print(listem2);
 }
 
+//SORU3
+
+var listem1 = [];
+
+var listem2 = <String, dynamic>{
+  "il": null,
+  "plaka kodu ": null,
+  "ilçe sayısı": null
+};

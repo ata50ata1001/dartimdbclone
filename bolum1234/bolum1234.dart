@@ -114,9 +114,6 @@ void main(List<String> args) {
 
 //SORU6 girilen int bir sayının faktöriyelini hesplayan uygulamayı yazınız
 
-  
-
-
 // bölüm 4 son video ödevleri
 //1
   print("Birinci öğrencinin notunu giriniz:");
@@ -131,6 +128,3 @@ void main(List<String> args) {
   double urun2 = ((urun1 / 100) * 18 + urun1);
   print("Ürünün kdvli fiyatı:$urun2");
 }
-
-
-
